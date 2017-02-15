@@ -1,4 +1,4 @@
-# Mes Velibs  
+# Mes Velibs  :bicyclist: :bicyclist:
 
 ##Synopsis
 
@@ -10,11 +10,11 @@ Just change the velibs ID une the urls at the end of `index.html` file to make i
 get your Api key [here](https://developer.jcdecaux.com) and replace it at the end of each urls
 
 ##Stack
-javascript
-jquery
+-javascript
+-jquery
 
 
 ## Tools
 
-[Velib Api (jcdecaux dev)](https://developer.jcdecaux.com)
-Free bootstrap template made by [Andrea Galanti](http://www.andreagalanti.it/flatfy.php)
+-[Velib Api (jcdecaux dev)](https://developer.jcdecaux.com)
+-Free bootstrap template made by [Andrea Galanti](http://www.andreagalanti.it/flatfy.php)
