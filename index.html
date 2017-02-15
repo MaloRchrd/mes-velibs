@@ -1,0 +1,263 @@
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <meta name="author" content="">
+
+    <title>Mes Velibs </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Custom Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+
+  <!-- NavBar-->
+  <nav class="navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#home">Mes Velibs <i class="fa fa-bicycle"></i></a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+
+          <li class="menuItem"><a href="#whatis">What is?</a></li>
+          <li class="menuItem"><a href="#useit">Use It</a></li>
+          <li class="menuItem"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+	<!-- FullScreen -->
+  <div class="intro-header">
+    <div class="col-xs-12 text-center">
+      <!-- <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Mes Velibs</h1> -->
+      <div class="row" style="padding:20px">
+        <br>
+        <div class="col-sm-6 block wow bounceIn">
+          <div class="row">
+            <div class="col-md-4 box-icon rotate">
+              <i class="fa fa-bicycle fa-4x "> </i>
+            </div>
+            <div class="col-md-8 box-ct">
+              <h5><i class="fa fa-2x fa-map-pin" aria-hidden="true"></i> <span id="rue1"></span></h5>
+              <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Velib dispo : <span id=velib1></span></h4>
+              <h4><i class="fa fa-thumbs-down" aria-hidden="true"></i>Place dispo : <span id=place1></span></h4>
+              <a class="btn btn-embossed btn-danger" href="#" role="button">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 block wow bounceIn">
+          <div class="row">
+            <div class="col-md-4 box-icon rotate">
+              <i class="fa fa-bicycle fa-4x "> </i>
+            </div>
+            <div class="col-md-8 box-ct">
+              <h5><i class="fa fa-2x fa-map-pin" aria-hidden="true"></i> <span id="rue2"></span></h5>
+              <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Velib dispo : <span id=velib2></span></h4>
+              <h4><i class="fa fa-thumbs-down" aria-hidden="true"></i>Place dispo : <span id=place2></span></h4>
+              <a class="btn btn-embossed btn-danger" href="#" role="button">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="padding:20px">
+        <div class="col-sm-6 block">
+          <div class="row">
+            <div class="col-md-4 box-icon">
+              <i class="fa fa-bicycle fa-4x "> </i>
+            </div>
+            <div class="col-md-8 box-ct">
+              <h5><i class="fa fa-2x fa-map-pin" aria-hidden="true"></i> <span id="rue3"></span></h5>
+              <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Velib dispo : <span id=velib3></span></h4>
+              <h4><i class="fa fa-thumbs-down" aria-hidden="true"></i>Place dispo : <span id=place3></span></h4>
+              <a class="btn btn-embossed btn-danger" href="#" role="button">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 block wow bounceIn">
+          <div class="row">
+            <div class="col-md-4 box-icon rotate">
+              <i class="fa fa-bicycle fa-4x "> </i>
+            </div>
+            <div class="col-md-8 box-ct">
+              <h5><i class="fa fa-2x fa-map-pin" aria-hidden="true"></i> <span id="rue4"></span></h5>
+              <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Velib dispo : <span id=velib4></span></h4>
+              <h4><i class="fa fa-thumbs-down" aria-hidden="true"></i>Place dispo : <span id=place4></span></h4>
+              <a class="btn btn-embossed btn-danger" href="#" role="button">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="padding:20px">
+        <div class="col-sm-6 block wow bounceIn">
+          <div class="row">
+            <div class="col-md-4 box-icon rotate">
+              <i class="fa fa-bicycle fa-4x "> </i>
+            </div>
+            <div class="col-md-8 box-ct">
+              <h5><i class="fa fa-2x fa-map-pin" aria-hidden="true"></i> <span id="rue5"></span></h5>
+              <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Velib dispo : <span id=velib5></span></h4>
+              <h4><i class="fa fa-thumbs-down" aria-hidden="true"></i>Place dispo : <span id=place5></span></h4>
+              <a class="btn btn-embossed btn-danger" href="#" role="button">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 block wow bounceIn">
+          <div class="row">
+            <div class="col-md-4 box-icon rotate">
+              <i class="fa fa-bicycle fa-4x "> </i>
+            </div>
+            <div class="col-md-8 box-ct">
+              <h5><i class="fa fa-2x fa-map-pin" aria-hidden="true"></i> <span id="rue6"></span></h5>
+              <h4><i class="fa fa-thumbs-up" aria-hidden="true"></i>Velib dispo : <span id=velib6></span></h4>
+              <h4><i class="fa fa-thumbs-down" aria-hidden="true"></i>Place dispo : <span id=place6></span></h4>
+              <a class="btn btn-embossed btn-danger" href="#" role="button">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+
+		});
+	  });
+
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+
+  var data;
+  var success;
+
+ var checkVelib = function () {
+
+
+  var velib10152 = $.getJSON( "https://api.jcdecaux.com/vls/v1/stations/10152?contract=Paris&apiKey=1c08813a2a299eb5e7104fe0ebddcf9ec73e2cc4", function( data ) {
+  $('#velib1').html(data.available_bikes);
+  $('#place1').html(data.available_bike_stands);
+  $('#rue1').html(data.address);
+  console.log(data.available_bikes);
+  });
+
+  var velib10153 = $.getJSON( "https://api.jcdecaux.com/vls/v1/stations/10153?contract=Paris&apiKey=1c08813a2a299eb5e7104fe0ebddcf9ec73e2cc4", function( data ) {
+  $('#velib2').html(data.available_bikes);
+  $('#place2').html(data.available_bike_stands);
+  $('#rue2').html(data.address);
+  console.log(data.available_bikes);
+  });
+
+  var velib10029 = $.getJSON( "https://api.jcdecaux.com/vls/v1/stations/10029?contract=Paris&apiKey=1c08813a2a299eb5e7104fe0ebddcf9ec73e2cc4", function( data ) {
+  $('#velib3').html(data.available_bikes);
+  $('#place3').html(data.available_bike_stands);
+  $('#rue3').html(data.address);
+  console.log(data.available_bikes);
+  });
+
+  var velib10028 = $.getJSON( "https://api.jcdecaux.com/vls/v1/stations/10028?contract=Paris&apiKey=1c08813a2a299eb5e7104fe0ebddcf9ec73e2cc4", function( data ) {
+  $('#velib4').html(data.available_bikes);
+  $('#place4').html(data.available_bike_stands);
+  $('#rue4').html(data.address);
+  console.log(data.available_bikes);
+  });
+
+  var velib10033 = $.getJSON( "https://api.jcdecaux.com/vls/v1/stations/10033?contract=Paris&apiKey=1c08813a2a299eb5e7104fe0ebddcf9ec73e2cc4", function( data ) {
+  $('#velib5').html(data.available_bikes);
+  $('#place5').html(data.available_bike_stands);
+  $('#rue5').html(data.address);
+  console.log(data.available_bikes);
+  });
+
+  var velib10020 = $.getJSON( "https://api.jcdecaux.com/vls/v1/stations/10020?contract=Paris&apiKey=1c08813a2a299eb5e7104fe0ebddcf9ec73e2cc4", function( data ) {
+  $('#velib6').html(data.available_bikes);
+  $('#place6').html(data.available_bike_stands);
+  $('#rue6').html(data.address);
+  console.log(data.available_bikes);
+  });
+
+  };
+
+      checkVelib();
+
+  setInterval(function () {
+    checkVelib();
+  }, 120000);
+
+  </script>
+
+</body>
+
+</html>
