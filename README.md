@@ -1,5 +1,8 @@
 # Mes Velibs  :bicyclist: :bicyclist:
 
+
+![mes velibs](img/mes-velibs.png)
+
 ##Synopsis
 
 Quick and dirty page to only show Velib (Paris Bike Sharing) near my flat.
@@ -10,14 +13,14 @@ Just change the velibs ID une the urls at the end of `index.html` file to make i
 get your Api key [here](https://developer.jcdecaux.com) and replace it at the end of each urls
 
 ##Stack
--javascript
--jquery
+- javascript
+- jquery
 
 
 ## Tools
 
--[Velib Api (jcdecaux dev)](https://developer.jcdecaux.com)
--Free bootstrap template made by [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
+- [Velib Api (jcdecaux dev)](https://developer.jcdecaux.com)
+- Free bootstrap template made by [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
 
 ## Demo
 
