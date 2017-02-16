@@ -17,7 +17,7 @@ get your Api key [here](https://developer.jcdecaux.com) and replace it at the en
 ## Tools
 
 -[Velib Api (jcdecaux dev)](https://developer.jcdecaux.com)
--Free bootstrap template made by [Andrea Galanti](http://www.andreagalanti.it/flatfy.php)
+-Free bootstrap template made by [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
 
 ## Demo
 
